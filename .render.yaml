@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: fullstack-app
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: EMAIL_USER
+        value: tuemail@gmail.com
+      - key: EMAIL_PASS
+        value: tu_app_password
