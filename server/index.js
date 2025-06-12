@@ -50,20 +50,6 @@ app.post("/contact", async (req, res) => {
   }
 });
 
-
-// Static build folder
-app.use(express.static(path.join(__dirname, "../client/dist")));
-
-// Fallback para React Router
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../client/dist/index.html"));
-});
-
-// Ruta de prueba
-app.get("/", (req, res) => {
-  res.send("API is running");
-});
-
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
