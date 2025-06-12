@@ -13,7 +13,7 @@ app.use(express.json());
 const path = require("path");
 
 // Ruta para manejar el formulario
-app.post("/contact", async (req, res) => {
+app.post("/api/contact", async (req, res) => {
   const { name, email, message } = req.body;
 
   if (!email || !message) {
