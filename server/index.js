@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 // Habilitar CORS para desarrollo
 app.use(cors({
-  origin: ["http://localhost:5174", "https://www.amydonald.xyz"], // permití ambos
+  origin: ["http://localhost:5173", "https://amydonald.xyz", "https://www.amydonald.xyz", "https://amy-donald-portfolio-backend.onrender.com"], // permití ambos
   methods: ["POST", "GET", "OPTIONS"],
 }));
 app.use(express.json()); 
@@ -35,7 +35,7 @@ app.post("/api/contact", async (req, res) => {
 
     await transporter.sendMail({
       from: email,
-      to: process.env.EMAIL_USER,
+      to: [process.env.EMAIL_USER, "amydonald05@gmail.com"],
       subject: `New message from ${name}`,
       text: message,
       html: `
