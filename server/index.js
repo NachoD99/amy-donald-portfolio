@@ -12,7 +12,7 @@ app.use(cors({
   origin: ["http://localhost:5174", "https://www.amydonald.xyz"], // permití ambos
   methods: ["POST", "GET", "OPTIONS"],
 }));
-app.use(express.json());
+app.use(express.json()); 
 
 const path = require("path");
 
