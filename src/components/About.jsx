@@ -34,10 +34,10 @@ export default function About() {
                             coffee shops, practicing yoga, or planning my next travel adventure. I bring this same energy and
                             creativity to every project I work on!
                         </Typography>
-                        <Typography variant="body1" align="left" sx={{ mb: 3, fontSize: "1.1rem", lineHeight: 1.7, color: "#333" }}>
+                        {/* <Typography variant="body1" align="left" sx={{ mb: 3, fontSize: "1.1rem", lineHeight: 1.7, color: "#333" }}>
                             Creative content enthusiast and creator with a flair for storytelling and a natural instinct for brand voice. Experienced in premium spirits, I blend platform expertise with cultural fluency to craft content that not only performs - but truly resonates.
                             A versatile, resilient and fast-learning individual, keen to explore new working and challenging environments.
-                        </Typography>
+                        </Typography> */}
                         <Box sx={{ mb: 3 }}>
                             <Typography variant="subtitle1" sx={{ fontWeight: "bold", mb: 1, color: "#333" }}>
                                 Platforms
@@ -112,20 +112,6 @@ export default function About() {
                             </Box>
                         </Box>
                     </Grid>
-                    {/* <Grid item xs={12} md={6}>
-                        <Box sx={{ textAlign: "center" }}>
-                            <img
-                                src=""
-                                alt="About Emma"
-                                style={{
-                                    width: "100%",
-                                    maxWidth: "400px",
-                                    borderRadius: "20px",
-                                    boxShadow: "0 20px 40px rgba(0,0,0,0.1)",
-                                }}
-                            />
-                        </Box>
-                    </Grid> */}
                 </Grid>
             </Container>
         </Box>

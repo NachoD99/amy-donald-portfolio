@@ -7,7 +7,11 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors());
+// Habilitar CORS para desarrollo
+app.use(cors({
+  origin: ["http://localhost:5174", "https://www.amydonald.xyz"], // permití ambos
+  methods: ["POST", "GET", "OPTIONS"],
+}));
 app.use(express.json());
 
 const path = require("path");

@@ -6,6 +6,7 @@ import {
   Button,
   Avatar,
 } from "@mui/material";
+import portraitImg from '/images/potrait.jpeg';
 
 export default function Hero() {
     const scrollToSection = (sectionId) => {
@@ -77,7 +78,7 @@ export default function Hero() {
           <Grid item xs={12} md={6}>
             <Box sx={{ textAlign: "center", mb: {xs: 8} }}>
               <Avatar
-                src="src\images\potrait.jpeg"
+                src={portraitImg}
                 sx={{
                   width: 300,
                   height: 300,

@@ -14,13 +14,13 @@ export default function Portfolio() {
         {
             title: "Beefeater Brand Ambassador",
             category: "Influencer Marketing",
-            image: "/src/images/portfolio1.jpeg", // 👈 agrega imágenes válidas
+            image: "/images/portfolio1.jpeg", // 👈 agrega imágenes válidas
             description: "Organising over 70 activations resulting in over 3,000 GIH and built over 200 relationships in bars over 9 months across Andalucia",
         },
         {
             title: "Marketing Assistant",
             category: "Social Media",
-            image: "/src/images/portfolio2.jpeg",
+            image: "/images/portfolio2.jpeg",
             description: "Organic reach of 95.3K accounts, exceeding 146K views, significantly increasing brand engagement in key demographics",
         },
     ];

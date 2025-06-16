@@ -102,6 +102,7 @@ export default function Contact() {
                         <Grid item xs={12} sm={3}>
                             <TextField
                                 fullWidth
+                                name="email" 
                                 label="Email Address"
                                 variant="outlined"
                                 placeholder="you@example.com"
@@ -131,6 +132,7 @@ export default function Contact() {
                         <Grid item xs={12} sm={3}>
                             <TextField
                                 fullWidth
+                                name="message" 
                                 label="Tell me about your project"
                                 multiline
                                 rows={5}
@@ -191,7 +193,7 @@ export default function Contact() {
                     </Typography>
                     <Box sx={{ display: "flex", justifyContent: "center", gap: 2, flexWrap: "wrap" }}>
                         <IconButton
-                            href="https://instagram.com"
+                            href="https://www.instagram.com/zoyerox?igsh=MTNlNnIzMXM2MjA1OA=="
                             target="_blank"
                             sx={{
                                 bgcolor: "#e91e63",
