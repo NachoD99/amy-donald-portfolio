@@ -39,12 +39,27 @@ app.post("/api/contact", async (req, res) => {
       subject: `New message from ${name}`,
       text: message,
       html: `
-        <h3>Contact Form</h3>
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Message:</strong></p>
-        <p>${message}</p>
-      `,
+  <div style="font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #e0e0e0; border-radius: 10px; background-color: #fafafa;">
+    <h2 style="color: #e91e63; border-bottom: 2px solid #e91e63; padding-bottom: 10px;">📬 New Contact Form Submission</h2>
+    <table style="width: 100%; margin-top: 20px;">
+      <tr>
+        <td style="padding: 8px 0; font-weight: bold; width: 100px;">Name:</td>
+        <td style="padding: 8px 0;">${name}</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px 0; font-weight: bold;">Email:</td>
+        <td style="padding: 8px 0;">${email}</td>
+      </tr>
+    </table>
+    <div style="margin-top: 20px;">
+      <p style="font-weight: bold; margin-bottom: 5px;">Message:</p>
+      <div style="background: #fff; padding: 15px; border-radius: 5px; border: 1px solid #ddd; color: #333;">
+        ${message}
+      </div>
+    </div>
+    <p style="margin-top: 30px; font-size: 0.9em; color: #999;">You received this email from your website's contact form.</p>
+  </div>
+`,
     });
 
     res.status(200).json({ success: true, message: "Email sent" });
