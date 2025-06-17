@@ -67,7 +67,7 @@ export default function NavigationBar() {
                             variant="h6"
                             sx={{
                                 fontWeight: "bold",
-                                color: "#e91e63",
+                                color: "#A41623",
                                 letterSpacing: 1,
                                 fontSize: { xs: "1.2rem", sm: "1.5rem" },
                                 fontFamily: "'Poppins', sans-serif",
@@ -100,14 +100,14 @@ export default function NavigationBar() {
                                                 left: 0,
                                                 width: 0,
                                                 height: "2px",
-                                                bgcolor: "#e91e63",
+                                                bgcolor: "#A41623",
                                                 transition: "width 0.3s ease",
                                             },
                                             "&:hover::after": {
                                                 width: "100%",
                                             },
                                             "&:hover": {
-                                                color: "#e91e63",
+                                                color: "#A41623",
                                                 backgroundColor: "transparent",
                                             },
                                         }}

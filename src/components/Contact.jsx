@@ -58,9 +58,9 @@ export default function Contact() {
                 <Typography
                     variant="h3"
                     align="center"
-                    sx={{ mb: 6, fontWeight: "bold", color: "#333" }}
+                    sx={{ mb: 6, fontWeight: "bold", color: "#918450" }}
                 >
-                    Let's Work Together!
+                    LET'S WORK TOGETHER!
                 </Typography>
 
                 <Paper
@@ -83,17 +83,17 @@ export default function Contact() {
                                 sx={{
                                     borderRadius: "20px",
                                     "& label.Mui-focused": {
-                                        color: "#e91e63",
+                                        color: "#A41623",
                                     },
                                     "& .MuiOutlinedInput-root": {
                                         "& fieldset": {
                                             borderColor: "#ccc",
                                         },
                                         "&:hover fieldset": {
-                                            borderColor: "#e91e63",
+                                            borderColor: "#A41623",
                                         },
                                         "&.Mui-focused fieldset": {
-                                            borderColor: "#e91e63",
+                                            borderColor: "#A41623",
                                         },
                                     },
                                 }}
@@ -113,17 +113,17 @@ export default function Contact() {
                                 sx={{
                                     borderRadius: "20px",
                                     "& label.Mui-focused": {
-                                        color: "#e91e63",
+                                        color: "#A41623",
                                     },
                                     "& .MuiOutlinedInput-root": {
                                         "& fieldset": {
                                             borderColor: "#ccc",
                                         },
                                         "&:hover fieldset": {
-                                            borderColor: "#e91e63",
+                                            borderColor: "#A41623",
                                         },
                                         "&.Mui-focused fieldset": {
-                                            borderColor: "#e91e63",
+                                            borderColor: "#A41623",
                                         },
                                     },
                                 }}
@@ -143,17 +143,17 @@ export default function Contact() {
                                 sx={{
                                     borderRadius: "20px",
                                     "& label.Mui-focused": {
-                                        color: "#e91e63",
+                                        color: "#A41623",
                                     },
                                     "& .MuiOutlinedInput-root": {
                                         "& fieldset": {
                                             borderColor: "#ccc",
                                         },
                                         "&:hover fieldset": {
-                                            borderColor: "#e91e63",
+                                            borderColor: "#A41623",
                                         },
                                         "&.Mui-focused fieldset": {
-                                            borderColor: "#e91e63",
+                                            borderColor: "#A41623",
                                         },
                                     },
                                 }}
@@ -166,7 +166,7 @@ export default function Contact() {
                                 fullWidth
                                 onClick={handleSubmit}
                                 sx={{
-                                    bgcolor: "#e91e63",
+                                    bgcolor: "#A41623",
                                     borderRadius: "30px",
                                     fontSize: "1.1rem",
                                     fontWeight: "bold",
@@ -174,7 +174,7 @@ export default function Contact() {
                                     textTransform: "none",
                                     transition: "0.3s ease",
                                     "&:hover": {
-                                        bgcolor: "#c2185b",
+                                        bgcolor: "#BF1A29",
                                         transform: "scale(1.02)",
                                     },
                                 }}
@@ -205,7 +205,7 @@ export default function Contact() {
                         </IconButton>
                         <IconButton
                             href="https://linkedin.com"
-                            target="https://www.linkedin.com/in/amydonald145/"
+                            target="http://www.linkedin.com/in/amydonald145"
                             sx={{
                                 bgcolor: "#0077b5",
                                 color: "white",
@@ -226,7 +226,7 @@ export default function Contact() {
                             <Twitter />
                         </IconButton> */}
                         <IconButton
-                            href="mailto:amydonald@gmail.com"
+                            href="mailto:amydonaldwork@gmail.com"
                             sx={{
                                 bgcolor: "#ea4335",
                                 color: "white",

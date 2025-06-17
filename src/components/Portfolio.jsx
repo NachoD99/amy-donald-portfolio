@@ -31,9 +31,9 @@ export default function Portfolio() {
                 <Typography
                     variant="h3"
                     align="center"
-                    sx={{ mb: 6, fontWeight: "bold", color: "#333" }}
+                    sx={{ mb: 6, fontWeight: "bold", color: "#918450" }}
                 >
-                    Portfolio
+                    PORTFOLIO
                 </Typography>
                 <Grid container spacing={4} justifyContent="center">
                     {portfolioItems.map((item, index) => (
@@ -65,7 +65,7 @@ export default function Portfolio() {
                                         label={item.category}
                                         size="small"
                                         sx={{
-                                            bgcolor: '#e91e63',
+                                            bgcolor: '#BF1A29',
                                             color: 'white',
                                             mb: 1,
                                         }}

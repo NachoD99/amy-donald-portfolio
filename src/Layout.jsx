@@ -40,7 +40,7 @@ export default function PortfolioWebsite() {
       <About />
       <Services />
       <Portfolio />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
 
       {/* Scroll to Top Button */}
@@ -51,9 +51,9 @@ export default function PortfolioWebsite() {
             position: "fixed",
             bottom: 20,
             right: 20,
-            bgcolor: "#e91e63",
+            bgcolor: "#A41623",
             color:"#fff",
-            "&:hover": { bgcolor: "#c2185b" },
+            "&:hover": { bgcolor: "#BF1A29" },
           }}
         >
           <KeyboardArrowUp />
