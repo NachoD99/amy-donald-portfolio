@@ -117,8 +117,8 @@ export default function Hero() {
                     textShadow: "2px 2px 6px rgba(0, 0, 0, 0.6)",
                   }}
                 >
-                  "Driving brand storytelling and social growth through bold, <br></br>
-                  culturally relevant content ✨"
+                  Driving brand storytelling and social growth through bold, <br></br>
+                  culturally relevant content ✨
                 </Typography>
               </motion.div>
 
