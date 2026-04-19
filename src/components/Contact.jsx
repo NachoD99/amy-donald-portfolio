@@ -58,9 +58,15 @@ export default function Contact() {
                 <Typography
                     variant="h3"
                     align="center"
-                    sx={{ mb: 6, fontWeight: "bold", color: "#918450" }}
+                    sx={{ mb: 1, fontWeight: "bold", color: "#918450", fontFamily: "'Playfair Display', serif" }}
                 >
                     LET'S WORK TOGETHER!
+                </Typography>
+                <Typography
+                    align="center"
+                    sx={{ mb: 6, color: "#999", fontSize: "1.05rem" }}
+                >
+                    Got a project in mind? I'd love to hear about it.
                 </Typography>
 
                 <Paper
@@ -204,8 +210,8 @@ export default function Contact() {
                             <Instagram />
                         </IconButton>
                         <IconButton
-                            href="https://linkedin.com"
-                            target="http://www.linkedin.com/in/amydonald145"
+                            href="http://www.linkedin.com/in/amydonald145"
+                            target="_blank"
                             sx={{
                                 bgcolor: "#0077b5",
                                 color: "white",

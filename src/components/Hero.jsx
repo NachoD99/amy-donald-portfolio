@@ -87,14 +87,11 @@ export default function Hero() {
                   variant="h4"
                   sx={{
                     mb: 3,
-                    color: "#A41623",
-                    fontSize: {md: "50px"},
-                    textShadow: "0 0 10pxrgb(255, 255, 255)",
-                    animation: "pulseGlow 2s infinite",
-                    "@keyframes pulseGlow": {
-                      "0%, 100%": { textShadow: "0 0 10pxrgb(255, 255, 255)" },
-                      "50%": { textShadow: "0 0 20px #ff33cc" },
-                    },
+                    color: "white",
+                    fontSize: { md: "36px" },
+                    fontWeight: 300,
+                    letterSpacing: 1,
+                    textShadow: "2px 2px 8px rgba(0,0,0,0.5)",
                   }}
                 >
                   Social Media and Content Specialist
@@ -183,15 +180,30 @@ export default function Hero() {
               viewport={{ once: true }}
               transition={{ delay: 0.4, duration: 0.6 }}
             >
-              <Box sx={{ textAlign: "center", mb: { xs: 8 } }}>
+              <Box sx={{ textAlign: "center", mb: { xs: 8 }, position: "relative" }}>
+                <Box
+                  sx={{
+                    position: "absolute",
+                    width: { xs: 320, md: 520 },
+                    height: { xs: 320, md: 520 },
+                    borderRadius: "50%",
+                    background: "radial-gradient(circle, rgba(164,22,35,0.3) 0%, transparent 70%)",
+                    top: "50%",
+                    left: "50%",
+                    transform: "translate(-50%, -50%)",
+                    zIndex: 0,
+                  }}
+                />
                 <Avatar
                   src={portraitImg}
                   sx={{
-                    width: {xs: 300, md: 500},
-                    height: {xs: 300, md: 500},
+                    width: { xs: 280, md: 460 },
+                    height: { xs: 280, md: 460 },
                     mx: "auto",
-                    border: "5px solid rgba(255,255,255,0.3)",
-                    boxShadow: "0 20px 40px rgba(0,0,0,0.2)",
+                    border: "6px solid rgba(255,255,255,0.25)",
+                    boxShadow: "0 30px 60px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,255,255,0.1)",
+                    position: "relative",
+                    zIndex: 1,
                   }}
                 />
               </Box>

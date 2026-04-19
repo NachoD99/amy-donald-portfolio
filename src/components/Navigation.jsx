@@ -123,7 +123,7 @@ export default function NavigationBar() {
         {/* Drawer for mobile navigation */ }
         < Drawer anchor = "right" open = { drawerOpen } onClose = { handleDrawerToggle } >
             <Box sx={{ width: 250, p: 2 }}>
-                <Typography variant="h6" sx={{ mb: 2, color: "#e91e63", fontWeight: "bold" }}>
+                <Typography variant="h6" sx={{ mb: 2, color: "#A41623", fontWeight: "bold", fontFamily: "'Poppins', sans-serif" }}>
                     Menu
                 </Typography>
                 <List>
